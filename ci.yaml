@@ -1,8 +1,8 @@
-image: "alpine"
+image: alpine
 steps:
   - 
-    name: 'test'
-    command: 'echo hello world!'
+    name: test
+    command: echo hello world!
   - 
-    name: 'test 2'
-    command: 'cat text.txt'
+    name: test 2
+    command: cat text.txt
