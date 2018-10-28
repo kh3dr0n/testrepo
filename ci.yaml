@@ -6,3 +6,6 @@ steps:
   - 
     name: test 2
     command: cat text.txt
+  - 
+    name: test 3
+    command: curl https://raw.githubusercontent.com/salimos/testrepo/master/text2.txt
